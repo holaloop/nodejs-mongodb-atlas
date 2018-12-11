@@ -11,7 +11,7 @@ const mongodb = require('mongodb');
 var MongoClient = require('mongodb').MongoClient;
 var uri = "YOUR_URL";
 MongoClient.connect(uri, function (err, db) {
-db.close();
+//db.close();
 if (err) {
 res.send(err);
 } else {
