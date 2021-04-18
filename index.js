@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 const mongodb = require('mongodb');
 
 var MongoClient = require('mongodb').MongoClient;
-var uri = "mongodb+srv://admin:rnuuIkHIQPpESjFB@cluster0.ntvqy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+var uri = "mongodb+srv://whatif:whatif@cluster0.ntvqy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 MongoClient.connect(uri, function (err, db) {
 //db.close();
 if (err) {
